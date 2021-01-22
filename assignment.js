@@ -10,10 +10,14 @@ function kilometerToMeter(kilometer){
         return meter;
     }
 }
+/** 
 var result = kilometerToMeter(-1);
-console.log(result);
-var result2 = kilometerToMeter(7);
-console.log(result2);
+ console.log(result);
+ var result2 = kilometerToMeter(7);
+ console.log(result2);
+*/
+
+
 
 //Second Problem 
 //Create Budget Calculator
@@ -30,10 +34,13 @@ function budgetCalculator(watch,phone,laptop){
     }
 
 }
+
+/** 
 var ifBudget = budgetCalculator(-1);
 console.log(ifBudget);
 var totalCost = budgetCalculator(50 ,100,500);
 console.log(totalCost);
+*/
 
 
 
@@ -59,9 +66,11 @@ function hotelCost(stay_days){
     }
 
 }
+/** 
 console.log(hotelCost(-1));
 var result = hotelCost(22);
 console.log(result);
+*/
 
 
 //Forth problem
@@ -83,8 +92,10 @@ return longestName;
 
 
 }
+/**
 var friendsNameArray = ["Rakib"];
 console.log(megaFriend(friendsNameArray));
 var FriendsName = ["Rakibul Islam","shakil","Sakib","Mostofa Nur Khan"];
 var longestName = megaFriend(FriendsName);
 console.log(longestName);
+*/
